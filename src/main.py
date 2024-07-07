@@ -18,7 +18,7 @@ class Transaction:
         self.comments = comments
 
     def equals(self, transaction):
-        if self.type == transaction.type and self.details == transaction.details and self.particulars == transaction.particulars and self.code == transaction.code and self.reference == transaction.reference and self.amount == transaction.amount and self.date.equals(transaction.date) and self.account == transaction.account and self.description == transaction.description and self.comments == transaction.comments:
+        if self.type == transaction.type and self.details == transaction.details and self.particulars == transaction.particulars and self.code == transaction.code and self.reference == transaction.reference and self.amount == transaction.amount and self.date == transaction.date and self.account == transaction.account and self.description == transaction.description and self.comments == transaction.comments:
             return True
         
         return False
